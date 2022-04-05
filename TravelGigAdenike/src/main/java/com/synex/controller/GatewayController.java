@@ -44,6 +44,7 @@ public class GatewayController {
 		//Hello Adenike
 		/////// hi this is tohnyxxxxx
 		//// his this is 2nd tohny
+		/////this is 3rd tohny
 		return new ResponseEntity<JsonNode>(responseNode,HttpStatus.OK);
 	}
 	
