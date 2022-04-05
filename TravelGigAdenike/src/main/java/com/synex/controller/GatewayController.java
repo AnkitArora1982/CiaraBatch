@@ -44,6 +44,7 @@ public class GatewayController {
 		//Hello Adenike
 		/////// hi this is tohnyxxxxx
 		//// his this is 2nd tohny
+		/////this is 3rd tohny
 		return new ResponseEntity<JsonNode>(responseNode,HttpStatus.OK);
 	}
 	
@@ -53,6 +54,8 @@ public class GatewayController {
 		return new ResponseEntity<JsonNode>(responseNode,HttpStatus.OK);
 	}
 	
+	//testing wei
+	//
 	@PostMapping(value="/saveBooking")
 	public ResponseEntity<JsonNode> saveBooking(@RequestBody JsonNode node,Authentication authentication) {
 		String userName = authentication.getName();
