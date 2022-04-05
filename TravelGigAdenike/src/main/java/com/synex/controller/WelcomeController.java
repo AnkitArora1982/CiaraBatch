@@ -15,5 +15,5 @@ public class WelcomeController {
 	public String hotel() {
 		return "hotel";
 	}
-	
+	//Cody adding a comment
 }
