@@ -17,7 +17,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class UserController {
 
+	//CIARA'S COMMENT
 	
+	//hi this is toan
 	@RequestMapping(value="/login")
 	public String login(@RequestParam(required=false) String logout, @RequestParam(required=false) String error, HttpServletRequest httpServletRequest,
 			HttpServletResponse httpServletResponse, Model model) {
