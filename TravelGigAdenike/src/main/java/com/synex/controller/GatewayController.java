@@ -39,6 +39,8 @@ public class GatewayController {
 	@PostMapping(value="/searchHotel")
 	public ResponseEntity<JsonNode> searchHotel(@RequestBody JsonNode node) {
 		JsonNode responseNode = hotelClient.searchHotel(node);
+		
+		/////// hi this is tohny
 		return new ResponseEntity<JsonNode>(responseNode,HttpStatus.OK);
 	}
 	
