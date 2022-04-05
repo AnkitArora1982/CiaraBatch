@@ -51,6 +51,7 @@ public class GatewayController {
 		return new ResponseEntity<JsonNode>(responseNode,HttpStatus.OK);
 	}
 	
+	//testing wei
 	@PostMapping(value="/saveBooking")
 	public ResponseEntity<JsonNode> saveBooking(@RequestBody JsonNode node,Authentication authentication) {
 		String userName = authentication.getName();
