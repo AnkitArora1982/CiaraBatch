@@ -11,4 +11,9 @@ public class WelcomeController {
 		return "hotel";
 	}
 	
+	@GetMapping(value="/hotel")
+	public String hotel() {
+		return "hotel";
+	}
+	
 }
