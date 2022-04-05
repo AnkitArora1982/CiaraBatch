@@ -41,6 +41,7 @@ public class GatewayController {
 		JsonNode responseNode = hotelClient.searchHotel(node);
 		
 		/////// hi this is tohnyxxxxx
+		//// his this is 2nd tohny
 		return new ResponseEntity<JsonNode>(responseNode,HttpStatus.OK);
 	}
 	
