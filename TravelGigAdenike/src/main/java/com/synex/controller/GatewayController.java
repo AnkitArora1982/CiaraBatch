@@ -69,4 +69,11 @@ public class GatewayController {
 		return new ResponseEntity<JsonNode>(responseNode,HttpStatus.OK);
 	}
 	
+	@PostMapping(value="/saveInsurance1")
+	public ResponseEntity<String> saveInsurance1(@RequestBody InsuranceModel insuranceModel,Authentication authentication) {
+		String userName = authentication.getName();
+		String response = insuranceService.saveInsurance(insuraceModel);
+		return new ResponseEntity<JsonNode>(responseNode,HttpStatus.OK);
+	}
+	
 }
